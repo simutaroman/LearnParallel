@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CreateStartTasks", "01_CreateStartTasks\01_CreateStartTasks.csproj", "{31B8AE8B-91B4-4241-913C-AFA4FACCAAB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelTask", "CancelTask\CancelTask.csproj", "{D2E8B43A-AA8E-4F41-89BF-31385D749DF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_CancelTask", "02_CancelTask\02_CancelTask.csproj", "{D2E8B43A-AA8E-4F41-89BF-31385D749DF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,7 +7,7 @@ namespace IntroducingTasks
 {
     class CancelingTasks
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             CancelableTasks();
             MonitoringCancelation();

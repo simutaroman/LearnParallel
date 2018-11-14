@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CancelTask
+namespace _02_CancelTask
 {
     class Program
     {

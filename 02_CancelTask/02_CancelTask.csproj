@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D2E8B43A-AA8E-4F41-89BF-31385D749DF6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CancelTask</RootNamespace>
-    <AssemblyName>CancelTask</AssemblyName>
+    <RootNamespace>02_CancelTask</RootNamespace>
+    <AssemblyName>02_CancelTask</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
