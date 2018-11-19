@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D2F3AABC-EBE9-4656-805A-CBC65ECE8863}</ProjectGuid>
+    <ProjectGuid>{ABD5BCFC-6209-419E-92CA-21BE0E940ABB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>WaitingForTasks</RootNamespace>
-    <AssemblyName>WaitingForTasks</AssemblyName>
+    <RootNamespace>_04_Mutex2</RootNamespace>
+    <AssemblyName>04_Mutex2</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -48,10 +48,14 @@ namespace _01_CreateStartTasks
             task1.Start();
 
             Task<int>task2 = Task.Factory.StartNew(TextLenth, text2);
+            var t3 = Task.Factory.StartNew((a) => (int)a, 10);
 
             var task3 = Task.Run(() => {
                 Console.WriteLine($"Task3 {Task.CurrentId}");
             });
+
+            int i = 10;
+            var t4 = Task.Run(() => i + 1);
 
             Console.WriteLine($"The length of the {text1} is {task1.Result}");
             Console.WriteLine($"The length of the {text2} is {task2.Result}");
