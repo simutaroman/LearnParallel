@@ -3,57 +3,63 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CreateStartTasks", "01_CreateStartTasks\01_CreateStartTasks.csproj", "{31B8AE8B-91B4-4241-913C-AFA4FACCAAB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CreateStartTasks", "01_TaskProgramming\01_CreateStartTasks\01_CreateStartTasks.csproj", "{31B8AE8B-91B4-4241-913C-AFA4FACCAAB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_CancelTask", "02_CancelTask\02_CancelTask.csproj", "{D2E8B43A-AA8E-4F41-89BF-31385D749DF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_CancelTask", "01_TaskProgramming\02_CancelTask\02_CancelTask.csproj", "{D2E8B43A-AA8E-4F41-89BF-31385D749DF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Waiting", "03_Waiting\03_Waiting.csproj", "{40804933-0959-4B41-89BA-05BBB32359ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Waiting", "01_TaskProgramming\03_Waiting\03_Waiting.csproj", "{40804933-0959-4B41-89BA-05BBB32359ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_WaitingForTasks", "04_WaitingForTasks\04_WaitingForTasks.csproj", "{D2F3AABC-EBE9-4656-805A-CBC65ECE8863}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_WaitingForTasks", "01_TaskProgramming\04_WaitingForTasks\04_WaitingForTasks.csproj", "{D2F3AABC-EBE9-4656-805A-CBC65ECE8863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ExceptionHandling", "05_ExceptionHandling\05_ExceptionHandling.csproj", "{C9AE202E-E377-4450-8D29-5F9AA2F858BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ExceptionHandling", "01_TaskProgramming\05_ExceptionHandling\05_ExceptionHandling.csproj", "{C9AE202E-E377-4450-8D29-5F9AA2F858BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 TaskProgramming", "01 TaskProgramming", "{08DEF178-D5C2-472C-86B6-FE2D775A0F5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CriticalSection", "01_CriticalSection\01_CriticalSection.csproj", "{4FE46B9E-B2BF-476B-9801-546802B94294}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CriticalSection", "02_DataSharingAndSync\01_CriticalSection\01_CriticalSection.csproj", "{4FE46B9E-B2BF-476B-9801-546802B94294}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_InterlocedOperations", "02_InterlocedOperations\02_InterlocedOperations.csproj", "{B323FC7A-8086-41E3-B1F1-758DE43D7595}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_InterlocedOperations", "02_DataSharingAndSync\02_InterlocedOperations\02_InterlocedOperations.csproj", "{B323FC7A-8086-41E3-B1F1-758DE43D7595}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Spin_Locking", "03_Spin_Locking\03_Spin_Locking.csproj", "{C591D86A-7860-4E90-810E-D6B15A57DF88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Spin_Locking", "02_DataSharingAndSync\03_Spin_Locking\03_Spin_Locking.csproj", "{C591D86A-7860-4E90-810E-D6B15A57DF88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_LockRecursion", "03_LockRecursion\03_LockRecursion.csproj", "{108CD390-6271-46C9-8B68-C13460478315}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_LockRecursion", "02_DataSharingAndSync\03_LockRecursion\03_LockRecursion.csproj", "{108CD390-6271-46C9-8B68-C13460478315}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Mutex", "04_Mutex\04_Mutex.csproj", "{D4DC9D0C-7F4E-449C-897A-FAC02FB5C70D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Mutex", "02_DataSharingAndSync\04_Mutex\04_Mutex.csproj", "{D4DC9D0C-7F4E-449C-897A-FAC02FB5C70D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Mutex2", "04_Mutex2\04_Mutex2.csproj", "{ABD5BCFC-6209-419E-92CA-21BE0E940ABB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Mutex2", "02_DataSharingAndSync\04_Mutex2\04_Mutex2.csproj", "{ABD5BCFC-6209-419E-92CA-21BE0E940ABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Mutex3", "04_Mutex3\04_Mutex3.csproj", "{9BDE102D-2CE6-4681-B909-4046767021AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Mutex3", "02_DataSharingAndSync\04_Mutex3\04_Mutex3.csproj", "{9BDE102D-2CE6-4681-B909-4046767021AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Reader_Writer", "05_Reader_Writer\05_Reader_Writer.csproj", "{EFCA562D-5654-40AC-91B6-10D6042AD1BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Reader_Writer", "02_DataSharingAndSync\05_Reader_Writer\05_Reader_Writer.csproj", "{EFCA562D-5654-40AC-91B6-10D6042AD1BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 DataSharingAndSync", "02 DataSharingAndSync", "{BD29D6BD-8407-49A1-B4D5-15D40B9A7B2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ParallelInvokeForForEach", "01_ParallelInvokeForForEach\01_ParallelInvokeForForEach.csproj", "{299610FA-A8BB-4C12-B76C-5BC0D505AFEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ParallelInvokeForForEach", "05_ParallelLoops\01_ParallelInvokeForForEach\01_ParallelInvokeForForEach.csproj", "{299610FA-A8BB-4C12-B76C-5BC0D505AFEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Breaking", "02_Breaking\02_Breaking.csproj", "{23533EAE-CE75-4EC7-B4C8-92C95285086C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Breaking", "05_ParallelLoops\02_Breaking\02_Breaking.csproj", "{23533EAE-CE75-4EC7-B4C8-92C95285086C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_ParallelLoops", "05_ParallelLoops", "{DC0F7FCD-16E8-463B-88CB-3275D8B4E5B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ConcurrentDictionary", "01_ConcurrentDictionary\01_ConcurrentDictionary.csproj", "{2AE8A8DD-AB17-48F7-995D-CF0005173279}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ConcurrentDictionary", "03_ConcurrentCollections\01_ConcurrentDictionary\01_ConcurrentDictionary.csproj", "{2AE8A8DD-AB17-48F7-995D-CF0005173279}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ConcurrentQueue", "02_ConcurrentQueue\02_ConcurrentQueue.csproj", "{6FFCBDA3-7FE8-45BB-8E46-7F784F306C80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ConcurrentQueue", "03_ConcurrentCollections\02_ConcurrentQueue\02_ConcurrentQueue.csproj", "{6FFCBDA3-7FE8-45BB-8E46-7F784F306C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ConcurrentStack", "03_ConcurrentStack\03_ConcurrentStack.csproj", "{386FF155-E2EE-4A85-90A2-3656D870E26F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ConcurrentStack", "03_ConcurrentCollections\03_ConcurrentStack\03_ConcurrentStack.csproj", "{386FF155-E2EE-4A85-90A2-3656D870E26F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_ConcurrentBag", "04_ConcurrentBag\04_ConcurrentBag.csproj", "{5339BAAC-1FE2-4F32-8092-2F2806C6544C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_ConcurrentBag", "03_ConcurrentCollections\04_ConcurrentBag\04_ConcurrentBag.csproj", "{5339BAAC-1FE2-4F32-8092-2F2806C6544C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ProducerConcumer", "05_ProducerConcumer\05_ProducerConcumer.csproj", "{5C6208CD-3E5C-4E7E-907E-8B3292632BDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ProducerConcumer", "03_ConcurrentCollections\05_ProducerConcumer\05_ProducerConcumer.csproj", "{5C6208CD-3E5C-4E7E-907E-8B3292632BDB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_ConcurrentCollections", "03_ConcurrentCollections", "{EBCB34AB-5899-4CAC-99E9-87C13105D341}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Continuations", "04_TaskCoordination\01_Continuations\01_Continuations.csproj", "{EB7B3D84-AE9C-4F5A-8F2B-19E83C211B59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ChildTask", "04_TaskCoordination\02_ChildTask\02_ChildTask.csproj", "{5ADD9DD2-74F9-4F15-809B-B5FC6C546EE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_TaskCoordination", "04_TaskCoordination", "{FF8A3B3D-5F51-4E06-9A04-7531543AF135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Barrier", "04_TaskCoordination\03_Barrier\03_Barrier.csproj", "{9343226E-1B49-4C6E-A801-3CFAE0B272BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_CountDownEvent", "04_TaskCoordination\04_CountDownEvent\04_CountDownEvent.csproj", "{1C0D46A1-B714-4E00-A1EC-9A67E8F73A2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +155,14 @@ Global
 		{5ADD9DD2-74F9-4F15-809B-B5FC6C546EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ADD9DD2-74F9-4F15-809B-B5FC6C546EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ADD9DD2-74F9-4F15-809B-B5FC6C546EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9343226E-1B49-4C6E-A801-3CFAE0B272BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9343226E-1B49-4C6E-A801-3CFAE0B272BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9343226E-1B49-4C6E-A801-3CFAE0B272BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9343226E-1B49-4C6E-A801-3CFAE0B272BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0D46A1-B714-4E00-A1EC-9A67E8F73A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0D46A1-B714-4E00-A1EC-9A67E8F73A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0D46A1-B714-4E00-A1EC-9A67E8F73A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0D46A1-B714-4E00-A1EC-9A67E8F73A2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +188,10 @@ Global
 		{386FF155-E2EE-4A85-90A2-3656D870E26F} = {EBCB34AB-5899-4CAC-99E9-87C13105D341}
 		{5339BAAC-1FE2-4F32-8092-2F2806C6544C} = {EBCB34AB-5899-4CAC-99E9-87C13105D341}
 		{5C6208CD-3E5C-4E7E-907E-8B3292632BDB} = {EBCB34AB-5899-4CAC-99E9-87C13105D341}
+		{EB7B3D84-AE9C-4F5A-8F2B-19E83C211B59} = {FF8A3B3D-5F51-4E06-9A04-7531543AF135}
+		{5ADD9DD2-74F9-4F15-809B-B5FC6C546EE7} = {FF8A3B3D-5F51-4E06-9A04-7531543AF135}
+		{9343226E-1B49-4C6E-A801-3CFAE0B272BB} = {FF8A3B3D-5F51-4E06-9A04-7531543AF135}
+		{1C0D46A1-B714-4E00-A1EC-9A67E8F73A2A} = {FF8A3B3D-5F51-4E06-9A04-7531543AF135}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96C1ED07-9407-4BD8-BCF6-C87CC0EA0F8B}
