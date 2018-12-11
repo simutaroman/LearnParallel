@@ -67,6 +67,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_AutoResetEvent", "04_Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_SemaphoreSlim", "04_TaskCoordination\06_SemaphoreSlim\06_SemaphoreSlim.csproj", "{F4CD0A1D-B3AC-4932-B952-EC990C03FA89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ThreadLocalStorage", "05_ParallelLoops\03_ThreadLocalStorage\03_ThreadLocalStorage.csproj", "{DFF606C8-BFC9-48AA-94F2-0771B7C2896B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Partitioning", "05_ParallelLoops\05_Partitioning\05_Partitioning.csproj", "{3E543EE2-773A-47D1-A872-512A8FE4D2D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +185,14 @@ Global
 		{F4CD0A1D-B3AC-4932-B952-EC990C03FA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4CD0A1D-B3AC-4932-B952-EC990C03FA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4CD0A1D-B3AC-4932-B952-EC990C03FA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF606C8-BFC9-48AA-94F2-0771B7C2896B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF606C8-BFC9-48AA-94F2-0771B7C2896B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF606C8-BFC9-48AA-94F2-0771B7C2896B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF606C8-BFC9-48AA-94F2-0771B7C2896B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E543EE2-773A-47D1-A872-512A8FE4D2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E543EE2-773A-47D1-A872-512A8FE4D2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E543EE2-773A-47D1-A872-512A8FE4D2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E543EE2-773A-47D1-A872-512A8FE4D2D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -213,6 +225,8 @@ Global
 		{B43BF181-53BC-4CFC-B656-4CD85E96AB29} = {FF8A3B3D-5F51-4E06-9A04-7531543AF135}
 		{07BF5BD5-A24C-4167-BAE4-6726427C1286} = {FF8A3B3D-5F51-4E06-9A04-7531543AF135}
 		{F4CD0A1D-B3AC-4932-B952-EC990C03FA89} = {FF8A3B3D-5F51-4E06-9A04-7531543AF135}
+		{DFF606C8-BFC9-48AA-94F2-0771B7C2896B} = {DC0F7FCD-16E8-463B-88CB-3275D8B4E5B9}
+		{3E543EE2-773A-47D1-A872-512A8FE4D2D6} = {DC0F7FCD-16E8-463B-88CB-3275D8B4E5B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96C1ED07-9407-4BD8-BCF6-C87CC0EA0F8B}
